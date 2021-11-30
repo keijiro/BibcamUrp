@@ -15,8 +15,8 @@ MonoBehaviour:
   debugShaders:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
   m_RendererFeatures:
-  - {fileID: 2803734419013543725}
-  m_RendererFeatureMap: 2da7d66999dde826
+  - {fileID: 2732460774379824003}
+  m_RendererFeatureMap: 832399db98a6eb25
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   shaders:
@@ -52,7 +52,7 @@ MonoBehaviour:
   m_ClusteredRendering: 0
   m_TileSize: 32
   m_IntermediateTextureMode: 0
---- !u!114 &2803734419013543725
+--- !u!114 &2732460774379824003
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -65,4 +65,16 @@ MonoBehaviour:
   m_Name: BibcamBackgroundPassFeature
   m_EditorClassIdentifier: 
   m_Active: 1
-  _shader: {fileID: 4800000, guid: d162ff6c8e9b645e5a2bd2bb31e17f52, type: 3}
+--- !u!114 &7997273096091146711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7adff7c3736a411bb8a78bcdfa19779, type: 3}
+  m_Name: BibcamBackgroundPassFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
