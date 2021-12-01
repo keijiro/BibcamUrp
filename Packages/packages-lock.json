@@ -78,7 +78,7 @@
       "dependencies": {},
       "url": "https://registry.npmjs.com"
     },
-    "jp.keijiro.bibcam.vfx": {
+    "jp.keijiro.bibcam.vfxgraph": {
       "version": "1.0.0",
       "depth": 0,
       "source": "registry",
