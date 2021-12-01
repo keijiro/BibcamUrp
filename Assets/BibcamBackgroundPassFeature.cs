@@ -14,7 +14,7 @@ sealed class BibcamBackgroundRenderPass : ScriptableRenderPass
         // BibcamBackground component reference
         var camera = renderingData.cameraData.camera;
         var bg = camera.GetComponent<BibcamBackground>();
-        if (bg == null) return;
+        if (bg == null || !bg.enabled) return;
 
         // Command buffer
         var cmd = CommandBufferPool.Get();
