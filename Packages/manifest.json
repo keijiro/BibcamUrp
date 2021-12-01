@@ -9,6 +9,7 @@
   "dependencies": {
     "com.unity.modules.video": "1.0.0",
     "com.unity.render-pipelines.universal": "12.1.1",
-    "jp.keijiro.bibcam": "2.0.3"
+    "jp.keijiro.bibcam": "2.0.3",
+    "jp.keijiro.bibcam.vfx": "1.0.0"
   }
 }
