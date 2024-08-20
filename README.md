@@ -1,3 +1,8 @@
+## Note
+
+Now the Metavido package (previously known as Bibcam) supports URP by default.
+You don't need to use this package any more.
+
 URP Custom Renderer Feature for Bibcam
 --------------------------------------
 
